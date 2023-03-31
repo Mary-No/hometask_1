@@ -1,11 +1,25 @@
 .App {
     --header_height: 60px;
+
 }
 
 .hw {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
 }
 
 .hwTitle {
+    font-size: 25px;
+    height: 60px;
+    background-color: rgba(89, 89, 117, 0.82);
+    padding: 10px;
+    color: white;
+    letter-spacing: 0.5px;
 
+}
+.messages{
+    display: flex;
+    flex-direction: column;
 }
