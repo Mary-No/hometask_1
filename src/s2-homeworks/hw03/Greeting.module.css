@@ -3,12 +3,12 @@
 
 .inputAndButtonContainer {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .error {
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -21,7 +21,7 @@
     height: 36px;
     padding: 5px 7px;
     margin: 10px 0;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -73,7 +73,7 @@
 
 .text {
     color: rgba(0, 0, 0, 0.5);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
