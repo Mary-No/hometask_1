@@ -1,3 +1,3 @@
 import s from './Loader.module.css'
-
-export const Loader = () => <div className={s.loader}/>
+import preloader from './images/spinning-dots.svg'
+export const Loader = () => <img className={s.loader} src={preloader} alt="preloader"/>
