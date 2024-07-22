@@ -25,3 +25,11 @@
 .loading {
 
 }
+.icon{
+    transform: rotate(180deg);
+
+}
+.sortIconDown{
+    transform: rotate(180deg);
+
+}
